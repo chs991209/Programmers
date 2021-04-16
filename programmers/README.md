@@ -4,7 +4,7 @@
 
 
 ## 1_Hash [문제보기](https://programmers.co.kr/learn/courses/30/parts/12077)
-- [lv01](https://github.com/euiminnn/Python/blob/master/programmers/1_Hash/lv01.py)   완주하지 못한 선수
+- [lv01](https://github.com/euiminnn/Python/blob/master/programmers/1_Hash/lv01.py)&nbsp;&nbsp;&nbsp;&nbsp; 완주하지 못한 선수
 - lv02-1 전화번호 목록
 - lv02-2 위장
 - lv03&nbsp;&nbsp;&nbsp;&nbsp; 베스트앨범
@@ -16,22 +16,22 @@
 - lv02-4 프린터
 
 ## 3_Heap [문제보기](https://programmers.co.kr/learn/courses/30/parts/12117)
-- lv02&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;더 맵게
+- lv02&nbsp;&nbsp;&nbsp;&nbsp; 더 맵게
 - lv03-1 디스크 컨트롤러
 - lv03-2 이중우선순위큐
 
 ## 4_Sort [문제보기](https://programmers.co.kr/learn/courses/30/parts/12198)
-- lv01&nbsp; &nbsp; &nbsp; &nbsp;K번째수
+- lv01&nbsp;&nbsp;&nbsp;&nbsp; K번째수
 - lv02-1 가장 큰 수
 - lv02-2 H-Index
 
 ## 5_Brute-force Search [문제보기](https://programmers.co.kr/learn/courses/30/parts/12230)
-- lv01   모의고사
+- lv01&nbsp;&nbsp;&nbsp;&nbsp; 모의고사
 - lv02-1 소수 찾기
 - lv02-2 카펫
 
 ## 6_Greedy [문제보기](https://programmers.co.kr/learn/courses/30/parts/12244)
-- lv01   체육복
+- lv01&nbsp;&nbsp;&nbsp;&nbsp; 체육복
 - lv02-1 조이스틱
 - lv02-2 큰 수 만들기
 - lv02-3 구명보트
@@ -42,19 +42,19 @@
 - lv03-1 N으로 표현
 - lv03-2 정수 삼각형
 - lv03-3 등굣길
-- lv04   도둑질
+- lv04&nbsp;&nbsp;&nbsp;&nbsp; 도둑질
 
 ## 8_DFS/BFS [문제보기](https://programmers.co.kr/learn/courses/30/parts/12421)
-- lv02   타겟 넘버
+- lv02&nbsp;&nbsp;&nbsp;&nbsp; 타겟 넘버
 - lv03-1 네트워크
 - lv03-2 단어 변환
 - lv03-3 여행경로
 
 ## 9_Binary Search [문제보기](https://programmers.co.kr/learn/courses/30/parts/12486)
-- lv03   입국심사
-- lv04   징검다리
+- lv03&nbsp;&nbsp;&nbsp;&nbsp; 입국심사
+- lv04&nbsp;&nbsp;&nbsp;&nbsp; 징검다리
 
 ## 10_Graph [문제보기](https://programmers.co.kr/learn/courses/30/parts/14393)
 - lv03-1 가장 먼 노드
 - lv03-2 순위
-- lv05   방의 개수
+- lv05&nbsp;&nbsp;&nbsp;&nbsp; 방의 개수
