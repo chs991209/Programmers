@@ -7,7 +7,7 @@
 - [lv01](https://github.com/euiminnn/Python/blob/master/programmers/1_Hash/lv01.py)   완주하지 못한 선수
 - lv02-1 전화번호 목록
 - lv02-2 위장
-- lv03&nbsp;&nbsp;&nbsp;&nbsp;베스트앨범
+- lv03&nbsp;&nbsp;&nbsp;&nbsp; 베스트앨범
 
 ## 2_Stack/Queue [문제보기](https://programmers.co.kr/learn/courses/30/parts/12081)
 - lv02-1 다리를 지나는 트럭
