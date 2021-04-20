@@ -11,7 +11,7 @@
 
 ## 2_Stack/Queue [문제보기](https://programmers.co.kr/learn/courses/30/parts/12081)
 - [lv02-1](https://github.com/euiminnn/Programmers/blob/master/2_Stack_Queue/lv02-1.py) 다리를 지나는 트럭
-- lv02-2 주식가격
+- [lv02-2](https://github.com/euiminnn/Programmers/blob/master/2_Stack_Queue/lv02-2.py) 주식가격
 - lv02-3 기능개발
 - lv02-4 프린터
 
