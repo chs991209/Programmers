@@ -14,7 +14,7 @@ index(max()) 함수를 사용하면 된다.
 >>> a_list = [1, 2, 3]
 >>> max_index = a_list.index(max(a_list))
 >>> max_index
-	2
+2
 ```
 
 
@@ -27,5 +27,5 @@ index값을 함께 리턴해주는 enumerate를 이용했다.
 >>> max_value = max(a_list)
 >>> indices = [index for index, value in enumerate(a_list) if value == max_value]
 >>> indices
-	[1, 3]
+[1, 3]
 ```
