@@ -8,5 +8,5 @@ for i in range(len(students)) :
             win += 1
     students.append(win)
 winner = [students[3], students[4], students[5]]
-answer = winner.index(max(winner)) + 1
+answer = winner.index(max(winner)) + 1          # only returns 1 answer(cannot get several indices of max values)
 print(answer)
