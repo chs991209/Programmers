@@ -5,13 +5,13 @@
 
 ## 1_Hash [문제보기](https://programmers.co.kr/learn/courses/30/parts/12077)
 - [**lv01**](https://github.com/euiminnn/Programmers/blob/master/1_Hash/lv01.py)&nbsp;&nbsp;&nbsp;&nbsp; 완주하지 못한 선수
-- [lv02-1](https://github.com/euiminnn/Programmers/blob/master/1_Hash/lv02-1.py) 전화번호 목록
+- [**lv02-1**](https://github.com/euiminnn/Programmers/blob/master/1_Hash/lv02-1.py) 전화번호 목록
 - lv02-2 위장
 - lv03&nbsp;&nbsp;&nbsp;&nbsp; 베스트앨범
 
 ## 2_Stack/Queue [문제보기](https://programmers.co.kr/learn/courses/30/parts/12081)
-- [lv02-1](https://github.com/euiminnn/Programmers/blob/master/2_Stack_Queue/lv02-1.py) 다리를 지나는 트럭
-- [lv02-2](https://github.com/euiminnn/Programmers/blob/master/2_Stack_Queue/lv02-2.py) 주식가격
+- [**lv02-1**](https://github.com/euiminnn/Programmers/blob/master/2_Stack_Queue/lv02-1.py) 다리를 지나는 트럭
+- [**lv02-2**](https://github.com/euiminnn/Programmers/blob/master/2_Stack_Queue/lv02-2.py) 주식가격
 - lv02-3 기능개발
 - lv02-4 프린터
 
@@ -26,9 +26,9 @@
 - lv02-2 H-Index
 
 ## 5_Brute-force Search [문제보기](https://programmers.co.kr/learn/courses/30/parts/12230)
-- [lv01](https://github.com/euiminnn/Programmers/blob/master/5_Brute-force/lv01.py)&nbsp;&nbsp;&nbsp;&nbsp; 모의고사
+- [**lv01**](https://github.com/euiminnn/Programmers/blob/master/5_Brute-force/lv01.py)&nbsp;&nbsp;&nbsp;&nbsp; 모의고사
 - lv02-1 소수 찾기
-- [lv02-2](https://github.com/euiminnn/Programmers/blob/master/5_Brute-force/lv02-2.py) 카펫
+- [**lv02-2**](https://github.com/euiminnn/Programmers/blob/master/5_Brute-force/lv02-2.py) 카펫
 
 ## 6_Greedy [문제보기](https://programmers.co.kr/learn/courses/30/parts/12244)
 - lv01&nbsp;&nbsp;&nbsp;&nbsp; 체육복
