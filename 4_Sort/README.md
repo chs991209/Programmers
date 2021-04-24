@@ -16,6 +16,7 @@ for문을 이용한다
 
 ### map 함수 사용하기
 map: Return an **iterator** that applies function to every item of iterable, yielding the results. [출처](https://docs.python.org/3/library/functions.html#map)
+
 map은 iterator를 반환하므로(iter 함수와 비슷한 기능) list 등(next 함수와 비슷한 기능) iterator를 operation 해주는 함수와 함께 사용해야 함
 ```
 >>> def squared(x): 
