@@ -31,3 +31,41 @@ index값을 함께 리턴해주는 enumerate를 이용했다.
 >>> indices
 [1, 3]
 ```
+
+## lv02-2 카펫
+### 내림차순 정렬
+```
+>>> a_list = [2, 3, 1, 4]
+>>> sorted(a_list, reverse = True)
+[4, 3, 2, 1]
+```
+
+### 큰 값 부터 for문 실행하기(range, max, min, -1)
+```
+>>> for i in range(3, 0, -1) :
+...		print(i, end = "")
+321
+```
+
+### 큰 값 부터 for문 실행하기(reversed(range()))
+```
+>>> for i in reversed(range(0, 3)) :
+...		print(i, end = "")
+210
+```
+
+### 사각형 만들어지는지 확인하기
+```
+>>> if ((m - 2) * (n - 2) == yellow) :
+		return answer
+```
+또는
+```
+>>> if (m * n - (m - 2)*(n - 2) == brown) :
+		return answer
+```
+또는
+```
+>>> if ((m + n) * 2 - 4 == brown) :
+		return answer
+```
