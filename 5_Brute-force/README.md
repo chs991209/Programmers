@@ -43,29 +43,29 @@ index값을 함께 리턴해주는 enumerate를 이용했다.
 ### 큰 값 부터 for문 실행하기(range, max, min, -1)
 ```
 >>> for i in range(3, 0, -1) :
-...		print(i, end = "")
+	print(i, end = "")
 321
 ```
 
 ### 큰 값 부터 for문 실행하기(reversed(range()))
 ```
 >>> for i in reversed(range(0, 3)) :
-...		print(i, end = "")
+	print(i, end = "")
 210
 ```
 
 ### 사각형 만들어지는지 확인하기
 ```
 >>> if ((m - 2) * (n - 2) == yellow) :
-		return answer
+	return answer
 ```
 또는
 ```
 >>> if (m * n - (m - 2)*(n - 2) == brown) :
-		return answer
+	return answer
 ```
 또는
 ```
 >>> if ((m + n) * 2 - 4 == brown) :
-		return answer
+	return answer
 ```
