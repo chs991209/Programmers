@@ -1,5 +1,5 @@
 def solution(brown, yellow):
-    for m in range(brown // 2, 3, -1) :
+    for m in range(brown // 2, 2, -1) :
         for n in range(3, m + 1) :
             if (m * n == brown + yellow) :
                if ((m - 2) * (n - 2) == yellow) :
