@@ -22,7 +22,7 @@
 
 ## 4_Sort [문제보기](https://programmers.co.kr/learn/courses/30/parts/12198)
 - [**lv01**](https://github.com/euiminnn/Programmers/blob/master/4_Sort/lv01.py)&nbsp;&nbsp;&nbsp;&nbsp; K번째수
-- lv02-1 가장 큰 수
+- [**lv02-1**](https://github.com/euiminnn/Programmers/blob/master/4_Sort/lv02-1.py) 가장 큰 수
 - lv02-2 H-Index
 
 ## 5_Brute-force Search [문제보기](https://programmers.co.kr/learn/courses/30/parts/12230)
