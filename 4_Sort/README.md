@@ -72,10 +72,10 @@ map은(iter 함수와 비슷한 기능) iterator를 반환하므로 list 등(nex
 ### 제출 코드 상세 풀이
 ```
 def solution(numbers):
-    numbers = [str(int) for int in numbers]
-    numbers = list(reversed(sorted(numbers, key = lambda x : x*3)))
-    numbers = "".join(numbers)
-    numbers = int(numbers)
-    numbers = str(numbers)
+    numbers = [str(int) for int in numbers]				# convert int to str
+    numbers = list(reversed(sorted(numbers, key = lambda x : x*3)))	# repeat str 3 times(bc numbers <= 1,000) and use it as a key to sort
+    numbers = "".join(numbers)						# make list into a string
+    numbers = int(numbers)						# in order to deal with "000", which supposed to be 0
+    numbers = str(numbers)						# condition: return form in string
     return numbers
 ```
