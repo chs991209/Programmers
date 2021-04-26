@@ -30,3 +30,12 @@ def solution3(array, commands):
     return list(map(lambda com: sorted(array[com[0] - 1 : com[1]])[com[2] - 1], commands))
 
 print("solution3: ", solution3([1, 5, 2, 6, 3, 7, 4], [[2, 5, 3], [4, 4, 1], [1, 7, 3]]))
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"                                 RESULT                              "
+"                              great job :)                           "
+"                                                                     "
+"                               logic: OK(100)                        "
+"                                time: OK                             "
+"                                                                     "
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
