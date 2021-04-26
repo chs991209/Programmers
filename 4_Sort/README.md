@@ -68,3 +68,14 @@ map은(iter 함수와 비슷한 기능) iterator를 반환하므로 list 등(nex
 >>> print(list(list_string))
 ['1', '2', '3']
 ```
+
+### 제출 코드 상세 풀이
+```
+def solution(numbers):
+    numbers = [str(int) for int in numbers]
+    numbers = list(reversed(sorted(numbers, key = lambda x : x*3)))
+    numbers = "".join(numbers)
+    numbers = int(numbers)
+    numbers = str(numbers)
+    return numbers
+```
