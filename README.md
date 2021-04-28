@@ -45,7 +45,7 @@
 - lv04&nbsp;&nbsp;&nbsp;&nbsp; 도둑질
 
 ## 8_DFS/BFS [문제보기](https://programmers.co.kr/learn/courses/30/parts/12421)
-- lv02&nbsp;&nbsp;&nbsp;&nbsp; 타겟 넘버
+- [**lv02**](https://github.com/euiminnn/Programmers/blob/master/8_DFS_BFS/lv02.py)&nbsp;&nbsp;&nbsp;&nbsp; 타겟 넘버
 - lv03-1 네트워크
 - lv03-2 단어 변환
 - lv03-3 여행경로
