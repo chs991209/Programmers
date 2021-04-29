@@ -1,5 +1,5 @@
 def dfs(numbers, target, depth) :
-    count = 0
+    numsum = 0
     if depth < len(numbers) :
         count = count + dfs(numbers, target, depth + 1)
         numbers[depth] = -1 * numbers[depth]
@@ -10,9 +10,18 @@ def dfs(numbers, target, depth) :
             return 1
         return 0
 
+def dfs2(numbers, target, depth, ssum):
+    if depth == len(numbers):
+        if ssum == target:
+            return 1
+        return 0
+    count = 0
+    count += dfs2(numbers, target, depth + 1, ssum + numbers[depth])
+    count += dfs2(numbers, target, depth + 1, ssum - numbers[depth])
+    return count
 
 def solution(numbers, target) :
-    answer = dfs(numbers, target, 0)
+    answer = dfs2(numbers, target, 0, 0)
     return answer
 
 
