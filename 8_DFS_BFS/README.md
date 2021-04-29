@@ -65,18 +65,18 @@ bfs(graph, 1, visited)
 ### 제출 코드 풀이
 ```python
 def dfs(n, computers, v, visited) :
-    visited[v] = True
+    visited[v] = True						# 방문 체크하기
     for j in range(n) :
-        if j != v and computers[v][j] == 1 :
-            if visited[j] == False :
-                dfs(n, computers, j, visited)
+        if j != v and computers[v][j] == 1 :			# 자기 자신이 아니고 and 이어진 네트워크라면
+            if visited[j] == False :				# 방문 전이라면
+                dfs(n, computers, j, visited)			# dfs 탐색 이어나감
 
 def solution(n, computers) :
     count = 0
-    visited = [False] * n
+    visited = [False] * n					# 방문 출석부 만들기
     for i in range(n) :
-        if visited[i] == False :
-            dfs(n, computers, i, visited)
-            count += 1
+        if visited[i] == False :				# 방문 전이라면
+            dfs(n, computers, i, visited)			# dfs 탐색 시작
+            count += 1						# 새로 시작할 때 마다 count+1(이어지지 않은 네트워크 수 세기)
     return count
 ```
