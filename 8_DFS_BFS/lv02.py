@@ -1,19 +1,26 @@
-def recursive(numbers, idx) :
-    if idx == len(numbers) - 1 :
-        return
-    numsum = numsum + numbers[idx]
-    numsum = numsum - numbers[idx]
-    recursive(numbers, idx + 1)
+def dfs(numbers, target, depth) :
+    count = 0
+    if depth < len(numbers) :
+        count = count + dfs(numbers, target, depth + 1)
+        numbers[depth] = -1 * numbers[depth]
+        count = count + dfs(numbers, target, depth + 1)
+        return count
+    elif depth == len(numbers) :
+        if sum(numbers) == target :
+            return 1
+        return 0
 
-recursive(numbers, 0)
 
 def solution(numbers, target) :
-    numsum = []
-    for num in numbers :
-        numsum.append(-2 * num + sum(numbers))
-    return count
+    answer = dfs(numbers, target, 0)
+    return answer
 
 
-print(solution([1, 1, 1, 1, 1], 3))
-
-# still in progress.........
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"                                 RESULT                              "
+"                              great job :)                           "
+"                                                                     "
+"                               logic: OK(100)                        "
+"                                time: OK                             "
+"                                                                     "
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
