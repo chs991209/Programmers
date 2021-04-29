@@ -57,22 +57,24 @@ visited = [False] * 9
 bfs(graph, 1, visited)
 ```
 
+
 # 문제풀이 노트
 ## lv02 타겟넘버
 ### 제출 코드 풀이
 ```python
 def dfs(numbers, target, depth) :
     count = 0
-    if depth < len(numbers) :
-        count = count + dfs(numbers, target, depth + 1)
+    if depth < len(numbers) :					# depth가 최대가 아닐 때
+        count = count + dfs(numbers, target, depth + 1)		# 수정중....
         numbers[depth] = -1 * numbers[depth]
         count = count + dfs(numbers, target, depth + 1)
+	
         return count
+	
     elif depth == len(numbers) :
         if sum(numbers) == target :
             return 1
         return 0
-
 
 def solution(numbers, target) :
     answer = dfs(numbers, target, 0)
