@@ -62,22 +62,19 @@ bfs(graph, 1, visited)
 ## lv02 타겟넘버
 ### 제출 코드 풀이
 ```python
-def dfs(numbers, target, depth) :
+def dfs(numbers, target, depth, numsum):
     count = 0
-    if depth < len(numbers) :					# depth가 최대가 아닐 때
-        count = count + dfs(numbers, target, depth + 1)		# 수정중....
-        numbers[depth] = -1 * numbers[depth]
-        count = count + dfs(numbers, target, depth + 1)
-	
-        return count
-	
-    elif depth == len(numbers) :
-        if sum(numbers) == target :
-            return 1
+    if depth < len(numbers):							# numsum에 number를 계속 더해주는 과정
+        count += dfs(numbers, target, depth + 1, numsum + numbers[depth])	# index로 사용되는 [depth]는 실제 깊이와 1 차이남 유의
+        count += dfs(numbers, target, depth + 1, numsum - numbers[depth])
+    elif depth == len(numbers):							# depth가 최대길이에 도달했다면
+        if numsum == target:							# 그리고 numsum이 타겟넘버라면
+            return 1								# 1을 카운트
         return 0
+    return count
 
 def solution(numbers, target) :
-    answer = dfs(numbers, target, 0)
+    answer = dfs(numbers, target, 0, 0)
     return answer
 ```
 
