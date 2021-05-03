@@ -36,7 +36,7 @@
 - lv02-2 큰 수 만들기
 - lv02-3 구명보트
 - lv03-1 섬 연결하기
-- lv03-2 단속카메라
+- [**lv03-2**](https://github.com/euiminnn/Programmers/blob/master/6_Greedy/lv03-2.py) 단속카메라
 
 ## 7_Dynamic Programming [문제보기](https://programmers.co.kr/learn/courses/30/parts/12263)
 - lv03-1 N으로 표현
