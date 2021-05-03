@@ -1,5 +1,5 @@
 # DFS & BFS
-<p align = "center"><img src = "https://github.com/euiminnn/py-practice/blob/master/dfs.png" width = "600"></p>
+<p align = "center"><img src = "https://github.com/euiminnn/image-upload/blob/master/dfs.png" width = "600"></p>
 
 ```python
 # graph[n]은 n번째 노드에 연결된 정보

@@ -16,4 +16,4 @@ def solution(routes):
             cam = end                    # cam위치는 다음 그룹 시작할 때의 end위치로 옮겨둠(이렇게 해야 그 그룹의 모든 end에 대해 min값 찾기 가능)
     return answer
 ```
-![참조](https://github.com/euiminnn/py-practice/blob/master/img/cam.png)
+![참조](https://github.com/euiminnn/image-upload/blob/master/cam.png)
