@@ -31,7 +31,7 @@
 - [**lv02-2**](https://github.com/euiminnn/Programmers/blob/master/5_Brute-force/lv02-2.py) 카펫
 
 ## 6_Greedy [문제보기](https://programmers.co.kr/learn/courses/30/parts/12244)
-- lv01&nbsp;&nbsp;&nbsp;&nbsp; 체육복
+- [**lv01**](https://github.com/euiminnn/Programmers/blob/master/6_Greedy/lv01.py)&nbsp;&nbsp;&nbsp;&nbsp; 체육복
 - lv02-1 조이스틱
 - lv02-2 큰 수 만들기
 - lv02-3 구명보트
