@@ -1,21 +1,54 @@
 # 문제풀이 노트
 ## lv01 체육복
+### 유의할 점
+- 반복문 실행 시, 반복할 대상을 수정(추가하거나 제거)하면 안 됨 -> index 순서대로 접근하기 때문.
+- 파이썬에서 리스트 간의 뺄셈은 지원하지 않음. 대신 집합 간의 뺄셈은 가능. set() 이용하기.
+### 리스트 간의 뺄셈 구현하기
+- 한 번에 빼기
+```
+>>> A = [1, 2, 3, 4]
+>>> B = [3, 4, 5, 6]
+>>> A, B = list(set(A) - set(B)), list(set(B) - set(A))
+>>> A
+[1, 2]
+>>> B
+[5, 6]
+```
+- 새로운 리스트 만든 후 빼기
+```
+>>> A = [1, 2, 3, 4]
+>>> B = [3, 4, 5, 6]
+>>> C = []
+>>> for a in A :
+...     if a in B :
+...             C.append(a)
+...
+>>> C
+[3, 4]
+>>> A = list(set(A) - set(C))
+>>> B = list(set(B) - set(C))
+>>> A
+[1, 2]
+>>> B
+[5, 6]
+```
 ### 제출 코드 풀이
 ```python
 def solution(n, lost, reserve):
     nums = 0
     same = []
-    student = n - len(lost)
-    for l in lost :
+    student = n - len(lost)                     # student에서 잃어버린 개수를 모두 뺀다(최소치를 구한다)
+    
+    for l in lost :                             # 도난 당했으나, 본인의 여벌 체육복이 있는 경우를 먼저 고려해야 한다.
         if l in reserve :
-            same.append(l)
-    student += len(same)
+            same.append(l)                      # lost[] == reserve[] 인 요소를 찾아 same[]에 담는다
+    student += len(same)                        # same[] 개수만큼 더해준다(도난 당했으나, 여벌 있는 경우)
     lost = list(set(lost) - set(same))
     reserve = list(set(reserve) - set(same))
-    lost = sorted(lost)
+    
     for l in lost :
         if l - 1 in reserve:
-            reserve.remove(l - 1)
+            reserve.remove(l - 1)       # lost에 대한 반복문 실행 중이므로, lost리스트의 요소는 건드리지 않아야 함
             nums += 1
         elif l + 1 in reserve:
             reserve.remove(l + 1)
