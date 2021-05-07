@@ -10,23 +10,27 @@ def solution(expression):
             num = 0
     s_exp.append(num)
 
-    case1 = 0 # * > + > -
-    case2 = 0 # * > - > +
-    case3 = 0 # + > * > -
-    case4 = 0 # + > - > *
-    case5 = 0 # - > * > +
-    case6 = 0 # - > + > *
-    j = 0
-    for i in range(0, len(s_exp)) :
-        if s_exp[i] == '*' :
-            case1[j] = s_exp[i-1] * s_exp[i+1]
-            j += 1
-            i += 2
-    for i in range(0, len(s_exp)) :
-        if s_exp[i] == '+' :
-            case1[j] = s_exp[i-1] + s_exp[i+1]
-            j += 1
-            i += 2
-    return max(case1, case2, case3, case4, case5, case6)
+    case = [[0], [1], [2], [3], [4], [5], [6]]
+    case[1] = [0, '*', '+', '-']
+    case[2] = [0, '*', '-', '+']
+    case[3] = [0, '+', '*', '-']
+    case[4] = [0, '+', '-', '*']
+    case[5] = [0, '-', '*', '+']
+    case[6] = [0, '-', '+', '*']
+    answer = [-1, 1, 2, 3, 4, 5, 6]
+    
+    for no in [1, 2, 3, 4, 5, 6]: 
+        c_exp = s_exp.copy()
+        for operator in [1, 2, 3] :
+            i = 0
+            while i < len(c_exp):
+                if c_exp[i] == case[no][operator]:
+                    c_exp[i-1] = eval(str(c_exp[i-1])+case[no][operator]+str(c_exp[i+1]))
+                    c_exp.pop(i)
+                    c_exp.pop(i)
+                else :
+                    i += 1
+            answer[no] = abs(c_exp[0])
+    return max(answer)
 
-print(solution("100+30*9"))
+print(solution("50*6-3*2"))
