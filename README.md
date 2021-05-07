@@ -3,6 +3,11 @@
 완성된 코드는 활성화된 [lv00]링크를 클릭하면 보실 수 있습니다.
 
 
+## 0_Actual_test
+### 2020intern [문제보기](https://tech.kakao.com/2020/07/01/2020-internship-test/)
+- [**lv01**](https://github.com/euiminnn/Programmers/blob/master/0_actual_test/2020intern/01keypad.py)&nbsp;&nbsp;&nbsp;&nbsp; 키패드
+- [**lv02**](https://github.com/euiminnn/Programmers/blob/master/0_actual_test/2020intern/02operator.py)&nbsp;&nbsp;&nbsp;&nbsp; 연산자
+
 ## 1_Hash [문제보기](https://programmers.co.kr/learn/courses/30/parts/12077)
 - [**lv01**](https://github.com/euiminnn/Programmers/blob/master/1_Hash/lv01.py)&nbsp;&nbsp;&nbsp;&nbsp; 완주하지 못한 선수
 - [**lv02-1**](https://github.com/euiminnn/Programmers/blob/master/1_Hash/lv02-1.py) 전화번호 목록
