@@ -8,7 +8,7 @@ def solution(s):
     while i < len(s) :		# 반복문 실행 시 전체를 순서대로 반복하는게  아니라 index를 조정할 때에는 for문보다 while문이 더욱 적합함
         if s[i] == 'z':			                # s = "zero" 인 경우
             answer.append(0)
-            i += 4				            # z에 있던 index를 4번 옮겨 다음 단어(혹은 숫자) 탐색
+            i += 4                      # z에 있던 index를 4번 옮겨 다음 단어(혹은 숫자) 탐색
         elif s[i] == 'o':
             answer.append(1)
             i += 3
