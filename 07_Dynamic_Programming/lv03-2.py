@@ -1,13 +1,14 @@
 def solution(triangle) :
+    n = len(triangle)
     answer = []
     a = sum(triangle[0])
     for t in triangle[1] :
         i = triangle[1].index(t)
         a += t
-        print("t = ", t)
-        for j in range(2, 5) :
+        #print("t = ", t)
+        for j in range(2, n) :
             m = max(triangle[j][i], triangle[j][i+1])
-            print("m = ", m)
+            #print("m = ", m)
             i = triangle[j].index(m)
             a += m
         answer.append(a)
