@@ -7,6 +7,12 @@
 ### 2020intern [문제보기](https://tech.kakao.com/2020/07/01/2020-internship-test/)
 - [**lv01**](https://github.com/euiminnn/Programmers/blob/master/0_actual_test/2020intern/01keypad.py)&nbsp;&nbsp;&nbsp;&nbsp; 키패드
 - [**lv02**](https://github.com/euiminnn/Programmers/blob/master/0_actual_test/2020intern/02operator.py)&nbsp;&nbsp;&nbsp;&nbsp; 연산자
+### 2021intern [문제보기]
+- [**lv01**](https://github.com/euiminnn/Programmers/blob/master/00_Actual_Test/2021intern/lv01nums.py)&nbsp;&nbsp;&nbsp;&nbsp; 영단어를 숫자로
+- lv02
+- [**lv03**](https://github.com/euiminnn/Programmers/blob/master/00_Actual_Test/2021intern/lv03cmd.py)&nbsp;&nbsp;&nbsp;&nbsp; 컨트롤 제트
+- lv04
+- lv05
 
 ## 01_Hash [문제보기](https://programmers.co.kr/learn/courses/30/parts/12077)
 - [**lv01**](https://github.com/euiminnn/Programmers/blob/master/1_Hash/lv01.py)&nbsp;&nbsp;&nbsp;&nbsp; 완주하지 못한 선수
@@ -45,7 +51,7 @@
 
 ## 07_Dynamic Programming [문제보기](https://programmers.co.kr/learn/courses/30/parts/12263)
 - lv03-1 N으로 표현
-- lv03-2 정수 삼각형
+- [**lv03-2**](https://github.com/euiminnn/Programmers/blob/master/07_Dynamic_Programming/lv03-2.py) 정수 삼각형
 - lv03-3 등굣길
 - lv04&nbsp;&nbsp;&nbsp;&nbsp; 도둑질
 
