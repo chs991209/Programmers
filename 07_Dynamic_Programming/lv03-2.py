@@ -7,7 +7,7 @@ def solution(triangle) :
         a += t
         #print("t = ", t)
         for j in range(2, n) :
-            m = max(triangle[j][i], triangle[j][i+1])
+            m = max(triangle[j][i], triangle[j][i+1])   # 각 자리에서 max가 아니라 다 더했을 때 max여야 함
             #print("m = ", m)
             i = triangle[j].index(m)
             a += m
