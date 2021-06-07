@@ -12,8 +12,6 @@ def solution(n, works) :
             a -= 1
             cnt += 1
             heapq.heappush(heap, -a)
-        #if cnt == n :
-            #break
     answer = 0
     
     i = 0
