@@ -10,15 +10,15 @@ def cipher(c, n) :
         return c
     if c.isupper() :
         ind = Uplist.index(c)
-        if (ind + n) > 25 :
-            ind = ind - 26
-            ### recursion needed ###
-        c = Uplist[ind + n]
+        ### recursion needed ###
+        #if (ind + n) > 25 :
+            #ind = ind - 26
+        c = Uplist[(ind + n) % 26] #use remainder, don't need recursion!
     elif c.islower() :
         ind = Lolist.index(c)
-        if (ind + n) > 25 :
-            ind = ind - 26
-        c = Lolist[ind + n]
+        #if (ind + n) > 25 :
+            #ind = ind - 26
+        c = Lolist[(ind + n) % 26]
     return c
 
 def solution(s, n) :
