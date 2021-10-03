@@ -5,8 +5,8 @@
 
 ## 00_Actual_test
 ### 2020intern [문제보기](https://tech.kakao.com/2020/07/01/2020-internship-test/)
-- [**lv01**](https://github.com/euiminnn/Programmers/blob/master/0_actual_test/2020intern/01keypad.py)&nbsp;&nbsp;&nbsp;&nbsp; 키패드
-- [**lv02**](https://github.com/euiminnn/Programmers/blob/master/0_actual_test/2020intern/02operator.py)&nbsp;&nbsp;&nbsp;&nbsp; 연산자
+- [**lv01**](https://github.com/euiminnn/Programmers/blob/master/00_Actual_Test/2020intern/01keypad.py)&nbsp;&nbsp;&nbsp;&nbsp; 키패드
+- [**lv02**](https://github.com/euiminnn/Programmers/blob/master/00_Actual_test/2020intern/02operator.py)&nbsp;&nbsp;&nbsp;&nbsp; 연산자
 ### 2021intern [문제보기]
 - [**lv01**](https://github.com/euiminnn/Programmers/blob/master/00_Actual_Test/2021intern/lv01nums.py)&nbsp;&nbsp;&nbsp;&nbsp; 영단어를 숫자로
 - lv02
