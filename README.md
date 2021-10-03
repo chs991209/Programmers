@@ -15,14 +15,14 @@
 - lv05
 
 ## 01_Hash [문제보기](https://programmers.co.kr/learn/courses/30/parts/12077)
-- [**lv01**](https://github.com/euiminnn/Programmers/blob/master/1_Hash/lv01.py)&nbsp;&nbsp;&nbsp;&nbsp; 완주하지 못한 선수
-- [**lv02-1**](https://github.com/euiminnn/Programmers/blob/master/1_Hash/lv02-1.py) 전화번호 목록
+- [**lv01**](https://github.com/euiminnn/Programmers/blob/master/01_Hash/lv01.py)&nbsp;&nbsp;&nbsp;&nbsp; 완주하지 못한 선수
+- [**lv02-1**](https://github.com/euiminnn/Programmers/blob/master/01_Hash/lv02-1.py) 전화번호 목록
 - lv02-2 위장
 - lv03&nbsp;&nbsp;&nbsp;&nbsp; 베스트앨범
 
 ## 02_Stack/Queue [문제보기](https://programmers.co.kr/learn/courses/30/parts/12081)
-- [**lv02-1**](https://github.com/euiminnn/Programmers/blob/master/2_Stack_Queue/lv02-1.py) 다리를 지나는 트럭
-- [**lv02-2**](https://github.com/euiminnn/Programmers/blob/master/2_Stack_Queue/lv02-2.py) 주식가격
+- [**lv02-1**](https://github.com/euiminnn/Programmers/blob/master/02_Stack_Queue/lv02-1.py) 다리를 지나는 트럭
+- [**lv02-2**](https://github.com/euiminnn/Programmers/blob/master/02_Stack_Queue/lv02-2.py) 주식가격
 - lv02-3 기능개발
 - lv02-4 프린터
 
@@ -32,22 +32,22 @@
 - lv03-2 이중우선순위큐
 
 ## 04_Sort [문제보기](https://programmers.co.kr/learn/courses/30/parts/12198)
-- [**lv01**](https://github.com/euiminnn/Programmers/blob/master/4_Sort/lv01.py)&nbsp;&nbsp;&nbsp;&nbsp; K번째수
-- [**lv02-1**](https://github.com/euiminnn/Programmers/blob/master/4_Sort/lv02-1.py) 가장 큰 수
+- [**lv01**](https://github.com/euiminnn/Programmers/blob/master/04_Sort/lv01.py)&nbsp;&nbsp;&nbsp;&nbsp; K번째수
+- [**lv02-1**](https://github.com/euiminnn/Programmers/blob/master/04_Sort/lv02-1.py) 가장 큰 수
 - lv02-2 H-Index
 
 ## 05_Brute-force Search [문제보기](https://programmers.co.kr/learn/courses/30/parts/12230)
-- [**lv01**](https://github.com/euiminnn/Programmers/blob/master/5_Brute-force/lv01.py)&nbsp;&nbsp;&nbsp;&nbsp; 모의고사
+- [**lv01**](https://github.com/euiminnn/Programmers/blob/master/05_Brute-force/lv01.py)&nbsp;&nbsp;&nbsp;&nbsp; 모의고사
 - lv02-1 소수 찾기
-- [**lv02-2**](https://github.com/euiminnn/Programmers/blob/master/5_Brute-force/lv02-2.py) 카펫
+- [**lv02-2**](https://github.com/euiminnn/Programmers/blob/master/05_Brute-force/lv02-2.py) 카펫
 
 ## 06_Greedy [문제보기](https://programmers.co.kr/learn/courses/30/parts/12244)
-- [**lv01**](https://github.com/euiminnn/Programmers/blob/master/6_Greedy/lv01.py)&nbsp;&nbsp;&nbsp;&nbsp; 체육복
+- [**lv01**](https://github.com/euiminnn/Programmers/blob/master/06_Greedy/lv01.py)&nbsp;&nbsp;&nbsp;&nbsp; 체육복
 - lv02-1 조이스틱
 - lv02-2 큰 수 만들기
 - lv02-3 구명보트
 - lv03-1 섬 연결하기
-- [**lv03-2**](https://github.com/euiminnn/Programmers/blob/master/6_Greedy/lv03-2.py) 단속카메라
+- [**lv03-2**](https://github.com/euiminnn/Programmers/blob/master/06_Greedy/lv03-2.py) 단속카메라
 
 ## 07_Dynamic Programming [문제보기](https://programmers.co.kr/learn/courses/30/parts/12263)
 - lv03-1 N으로 표현
@@ -56,8 +56,8 @@
 - lv04&nbsp;&nbsp;&nbsp;&nbsp; 도둑질
 
 ## 08_DFS/BFS [문제보기](https://programmers.co.kr/learn/courses/30/parts/12421)
-- [**lv02**](https://github.com/euiminnn/Programmers/blob/master/8_DFS_BFS/lv02.py)&nbsp;&nbsp;&nbsp;&nbsp; 타겟 넘버
-- [**lv03-1**](https://github.com/euiminnn/Programmers/blob/master/8_DFS_BFS/lv03-1.py) 네트워크
+- [**lv02**](https://github.com/euiminnn/Programmers/blob/master/08_DFS_BFS/lv02.py)&nbsp;&nbsp;&nbsp;&nbsp; 타겟 넘버
+- [**lv03-1**](https://github.com/euiminnn/Programmers/blob/master/08_DFS_BFS/lv03-1.py) 네트워크
 - lv03-2 단어 변환
 - lv03-3 여행경로
 
